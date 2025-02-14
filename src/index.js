@@ -43,7 +43,7 @@ import ForgotPassword from './Components/Login/ForgotPassword';
 const navbarItems = ["Home", "Property", "Agents", "About Us", "Contact Us"];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <GoogleOAuthProvider clientId='1069317331463-9cd00bom5ml11tnqdplh6eu0hu8b2lr4.apps.googleusercontent.com'>
+  <GoogleOAuthProvider clientId='ID'>
     <CounterProvider>
       <BrowserRouter>
         <Routes>
