@@ -1,0 +1,29 @@
+.bodyab{
+    padding: 25px 0 0 0px;
+}
+.text{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+.subtext{
+    font-family: "Roboto", sans-serif;
+}
+.aboutimg{
+    border-radius: 10px;
+    height: 500px;
+    object-fit: fill;
+}
+.agentimg{
+    border-radius: 15px;
+    height: 210px;
+    object-fit: cover !important;
+}
+.agentimg:hover{
+    transform: scale(1.02);
+    transition: 0.5s all ease;
+}
+.agentname{
+    color: #000;
+    text-decoration: none !important;
+}

@@ -1,0 +1,132 @@
+.back{
+    background-color: rgba(248, 249, 250, 0.573);
+    margin-left:110px ;
+}
+.title{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 50px 0 0 130px;
+}
+.body{
+    padding: 50px 0 0 115px;
+}
+.card{
+    border: none;
+    background-color: rgba(248, 249, 250, 0.573);
+    border-radius: 15px;
+}
+.searchtitle{
+    padding: 22px 0 0 20px;
+    font-weight: bolder;
+}
+.searchinput{
+    position: relative;
+    height: 50px;
+    width: 340px;
+    margin: 25px 0 0 20px;
+}
+.checkbox{
+    padding: 0 0 0 20px;
+}
+form > label {
+    padding: 7px 0 0 20px;
+    font-size: 15px;
+}
+form > input{
+    padding: 22px 0 0 20px;
+}
+.price1{
+    margin: 14px 0 0 25px;
+}
+.middleprice{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+}
+.price2{
+    margin: 14px 0 0 12px;
+}
+.selection input[type=radio] {
+    display: none;
+}
+.form-select{
+    margin: 20px 0 0 20px;
+    height: 40px;
+    width: 340px;
+}
+.searchButton{
+   margin-left: 3px; 
+   height: 45px;
+   width: 340px;
+   padding-top: 10px;
+}
+
+/* Card List */
+.card-img{
+    height: 245px;
+    transition: 0.5s all ease-in-out;
+}
+.card-img:hover{
+    transform: scale(1.03);
+}
+.cardTitle{
+    text-decoration: none;
+    color: black;
+}
+.cardTitle:hover{
+    text-decoration: underline;
+}
+.card-text{
+    color: #717171;
+    font-weight: lighter;
+}
+.card-body{
+    border: none;
+    background-color:#fff;
+    border-radius: 0 0 10px 10px;
+}
+.imagelist{
+    width: 262px;
+    transition: 0.5s all ease-in-out;
+}
+.imagelist:hover{
+    transform: scale(1.03);
+}
+.listdata{
+    padding: 20px;
+}
+.listcard{
+    --bs-list-group-item-padding-y:none;
+}
+.fav{
+    text-decoration: none;
+    border: none; 
+    background-color: transparent;
+    cursor: pointer; 
+    outline: none; 
+}
+.pricetag{
+    background-color: #fff;
+    border-radius: 6px;
+    bottom: 10px;
+    color: var(--headings-color);
+    font-family: var(--title-font-family);
+    font-weight: 600;
+    font-size: 15px;
+    left: 10px;
+    padding: 3px 12px;
+    position: absolute;
+}
+.pricetaglist{
+    top:400px;
+    left: 650px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: var(--headings-color);
+    font-family: var(--title-font-family);
+    font-weight: 600;
+    font-size: 15px;
+    padding: 3px 4px;
+    position: absolute;
+}

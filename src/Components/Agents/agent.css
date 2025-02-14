@@ -1,0 +1,39 @@
+.title{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 50px 0 0 90px;
+}
+.searchinputagent{
+    position: relative;
+    height: 50px;
+    width: 340px;
+    margin: 45px 0 0 90px;
+}
+.agentinput{
+    width: 85%;
+    border-radius: 80px;
+}
+.agentinput:hover{
+    border-color: black;
+}
+.agentinput:focus{
+    border-color: black;
+    box-shadow: none;
+}
+.agentbody{
+    margin: 20px 0 0 90px;
+}
+.agentimg{
+    border-radius: 15px;
+    height: 260px;
+    object-fit: cover !important;
+}
+.agentimg:hover{
+    transform: scale(1.02);
+    transition: 0.5s all ease;
+}
+.agentname{
+    color: #000;
+    text-decoration: none !important;
+}

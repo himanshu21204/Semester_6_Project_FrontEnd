@@ -1,0 +1,35 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    top: 200px; /* Adjusted top position */
+    overflow: hidden;
+}
+
+/* Hero Slider Images */
+.hero-slide .img.overlay {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.property-card:hover {
+    transform: translateY(-5px);
+}
+.category-card:hover {
+    transform: translateY(-5px);
+}
+.agent-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agent-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.agent-img {
+    transition: opacity 0.3s ease;
+}
+
+.agent-card:hover .agent-img {
+    opacity: 0.9;
+}
