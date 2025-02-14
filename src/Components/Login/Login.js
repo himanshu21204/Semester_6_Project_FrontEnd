@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 import {jwtDecode} from "jwt-decode";
 import { decodeJwt, getJWTFromSession } from "./GetAuth";
 
-const CLIENT_ID = "1069317331463-9cd00bom5ml11tnqdplh6eu0hu8b2lr4.apps.googleusercontent.com"; // Replace with your Google Client ID
+const CLIENT_ID = ""; // Replace with your Google Client ID
 
 const Login = () => {
   const navigate = useNavigate();
